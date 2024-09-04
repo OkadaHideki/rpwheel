@@ -148,6 +148,7 @@
   "exclude": [
     "../dist",
     "../node_modules",
+    "../../node_modules",
     "../node_modules/nuxt/node_modules",
     "../node_modules/vuetify-nuxt-module/runtime/server",
     "../node_modules/vuetify-nuxt-module/dist/runtime/server",

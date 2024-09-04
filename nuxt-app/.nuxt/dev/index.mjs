@@ -101,7 +101,9 @@ const _inlineRuntimeConfig = {
       }
     }
   },
-  "public": {}
+  "public": {
+    "apiUrl": ""
+  }
 };
 const envOptions = {
   prefix: "NITRO_",

@@ -19,11 +19,14 @@
   const data = ref(null);
   const fetchInterval = 5000; // 5秒ごとにデータを更新
   let intervalId = null;
+  const config = useRuntimeConfig()
+  const apiUrl = config.public.apiUrl
   
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://153.127.216.75:3003/api');
+      const response = await axios.get(apiUrl);
       data.value = response.data;
+      console.log(apiUrl);
     } catch (error) {
       console.error('データの取得に失敗しました:', error);
     }
