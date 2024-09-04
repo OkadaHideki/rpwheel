@@ -1,0 +1,1 @@
+export { default } from "file:///Users/okada/Documents/rpwheel/nuxt-app/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
